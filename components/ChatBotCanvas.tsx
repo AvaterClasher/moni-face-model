@@ -43,7 +43,6 @@ const Torch = ({ vec = new Vector3(), ...props }) => {
 	);
 };
 
-//Resource to Head : https://sketchfab.com/3d-models/blender-sushi-virtual-journal-16th-april-2020-634af2ae983f4fb8a9295e6b1b3d5c74
 const Head = () => {
 	const { isPlaying, setIsPlaying } = useContext(AppContext);
 	const model = useGLTF("/head.glb");
